@@ -1,0 +1,135 @@
+
+*{
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #2D2D2D;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+}
+
+nav .links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav .links ul li{
+    padding: 0 20px;
+    padding-top: 13px;
+    align-items: center;
+}
+
+nav .links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+
+nav .links ul li a:hover {
+    color: #C11119;
+    transition: .2s linear;
+}
+
+nav .links ul li a span {
+    font-size: 23px;
+}
+
+/* Movie Card */
+
+.card img {
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+    height: 50%;
+    width: 100%;
+}
+
+.card {
+    height: 600px;
+    width: 300px;
+    background-color: black;
+    transition: .2s linear;
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+h3 {
+    text-decoration: none;
+    align-items: center;
+}
+
+.box {
+    width: 95%;
+    height: 90vh;
+    margin: 38px auto;
+}
+
+.box .upper-content {
+    margin-top: 30px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box .upper-content .img {
+    width: 30%;
+    height: 100%;
+}
+
+.box .upper-content .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.box .upper-content .title {
+    height: 100%;
+    width: 70%;
+}
+
+.box .upper-content .title h1 {
+    padding: 20px;
+    padding-bottom: 0;
+    font-size: 60px;
+}
+
+.box .upper-content .title p {
+    padding: 20px;
+    padding-bottom: 0;
+    font-size: 30px;
+}
+
+.box .lower-content {
+    width: 100%;
+    height: 40%;
+}
+
+.box .lower-content p {
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.box .lower-content p span {
+    font-size: larger;
+    font-weight: 600;
+}
